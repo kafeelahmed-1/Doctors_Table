@@ -1,0 +1,87 @@
+.main-container {
+  padding: 20px;
+  width: 85%;
+  height: 50%;
+  margin: 10px auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3), 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin: 0;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.search-field {
+  width: 300px;
+}
+
+.add-button-container {
+  
+
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.add-btn {
+  
+  margin-top: -12px !important;
+  display: flex;
+  justify-content: flex-end;
+  height: 50px;
+  width: 130px !important;
+  font-size: small !important;
+}
+
+.data-grid-container {
+  height: 450px;
+  width: 100%;
+}
+
+.MuiDataGrid-columnHeaders {
+  background-color: blue;
+  color: black;
+  font-weight: bold;
+}
+
+.table-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.records-per-page {
+  margin-right: auto;
+}
+
+.search-container {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.search-field {
+  margin-left: 5px;
+}
+
+.records-per-page span,
+.search-container span {
+  font-weight: normal;
+}
